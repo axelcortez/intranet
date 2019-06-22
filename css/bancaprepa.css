@@ -1,0 +1,254 @@
+.sidenavEstatico
+{
+    transform: translateX(0px);
+}
+
+#container {
+    padding-left: 300px; 
+    
+  }
+  
+#content {
+    padding: 20px; 
+}
+
+@media only screen and (max-width : 992px) {
+    #container {
+      padding-left: 0px;
+    }
+  } 
+
+  .scroller {
+  padding-top: 0;
+  margin-top: 0;
+  height: 120px;
+  width: 250%; 
+  overflow-y: scroll;
+}
+.scroller2{
+  padding-top: 0;
+  margin-top: 0;
+  height: 295px;
+  width: 250%; 
+  overflow-y: scroll;
+}
+.scroller3{
+  padding-top: 0;
+  margin-top: 0;
+  height: 335px;
+  width: 250%; 
+  overflow-y: scroll;
+}
+.scrollerEspecial{
+  padding-top: 0;
+  margin-top: 0;
+  height: 200px;
+  width: 250%; 
+  overflow-y: scroll;
+  position: absolute; 
+  background: white;
+  border: 1px grey solid;
+  
+}
+.scroller5{
+  padding-top: 0;
+  margin-top: 0;
+  height: 235px;
+  width: 100%; 
+  overflow-y: scroll;
+}
+.divEspecial{
+  display:none;
+}
+
+.sinPub{
+    text-align: center;
+}
+
+.espacioClientes{
+  padding-top: 0;
+  margin-top: 0;
+  height: 200px;
+  width: 250%; 
+  overflow-y: scroll;
+}
+
+#sidenav2{
+  width: 300px;
+  height: 137px;
+}
+.cajaPorUser{
+      padding-top: 0;
+      margin-top: 0;
+      height: 180px; 
+      overflow-y: scroll;
+}
+
+#frameImg{ 
+  width: 100%; 
+  height: 298px; 
+  overflow: auto;
+}
+
+@media only screen and (min-width : 992px) {
+    .modal-small{
+      width: 25%;
+    }
+    .modal-large{
+       
+      max-height: 90%;
+    }
+
+    .modal-xl{ 
+      width: 80%;   
+    }
+
+    .img-large{
+       width: 100%; height: 120em;
+    }
+
+    .table-publicaciones{
+      width: 560px; 
+      margin: 0 auto;
+    }
+
+     .mosaico{
+      width: 100% !important;
+      height: 150px;
+    }
+   
+  } 
+
+
+
+@media only screen and (max-width : 991px) {
+   .modal-large{
+       
+     bottom: -100%;
+      margin: 0;
+      width: 100%;
+      max-height: 100%;
+      border-radius: 0;
+      will-change: bottom, opacity;
+    }
+
+    .img-large{
+      margin: 0;
+      width: 95%;
+      max-height: 90%;
+      border-radius: 0;
+    }
+
+    .mosaico{
+      width: 95% !important;
+      height: 150px;
+    }
+
+    .modal-xl{ 
+      width: 95%;  
+    }
+
+    
+     
+    
+  } 
+    
+
+
+.imgstock{
+  width: 95% !important;
+  height: 150px;
+}
+.minicont{
+  width: 95% !important;
+  height: 155px !important;
+
+}
+.mb-5 {
+  margin-bottom: 35px !important;
+}
+.mt-5 {
+  margin-top: 35px !important;
+}
+.ml-5 {
+  margin-left:  35px !important;
+}
+.mr-5 {
+  margin-right:   35px !important;
+}
+.break-word {
+   overflow-wrap: break-word !important; 
+}
+.revelate{
+  border: 1px black solid;
+}
+
+.strikethrough {
+    position: relative;
+}
+ 
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: red;
+     
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+}
+
+.center1 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#descripcionTicket {
+  margin:10px 0;
+  height:300px;
+}
+
+#comentarioTicket {
+  margin:10px 0;
+  height:300px;
+}
+
+#comentarioTicketAdm {
+  margin:10px 0;
+  height:300px;
+}
+ 
+#registroGrupo{
+  height: 700px;
+}
+
+.subrallar-tabla:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+ .tablabancaprepa tbody tr:hover{
+   background: #e0e0e0 ;
+ }
+
+ .table-sm tbody td,th{ 
+  padding:0.5rem;
+ } 
+
+ .buttonbancaprepa:focus {
+  background-color: #e0e0e0;
+  border: 1px black solid;
+}
+
+.cajaNotificaciones{ 
+  height:440px; 
+  overflow-y: scroll; 
+  background: white;
+  border: 1px grey solid;
+}
+ 
